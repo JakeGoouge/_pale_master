@@ -8,20 +8,67 @@ html, body {
 
 .container {
   display: flex;
+  border: solid red 3px;
+  margin-top: 15rem;
 }
 
 #panel {
+  border: solid blueviolet 3px;
   display: block;
-  margin-top: 20rem;
-  margin-left: 20rem;
-}
-
-
-h2 {
-  font-size: 2rem;
-  color: #8080ff;
+  width: 33.33%;
+  padding: px;
   text-align: center;
-  /* display: inline-block; */
 }
 
+#smileyImage {
+  width: 20rem;
+  height: auto;
+  border: solid 3px salmon;
+}
+
+.smileyImageSticky {
+  width: 20rem;
+  height: auto;
+  border: solid 3px purple;
+  position: fixed;
+  top: 15rem;
+  display: block;
+  padding: 5px;
+  margin-left: 60px;
+}
+
+#subHead {
+  font-size: 24px;
+  color: #8080ff;
+  width: 33.33%;
+  margin-left: 33.33%;
+  border: solid 3px turquoise;
+}
+
+#subHeadSticky {
+  font-size: 24px;
+  color: #8080ff;
+  width: 33.33%;
+  margin-left: 33.33%;
+  margin-top: 350px;
+  border: solid 3px turquoise;
+}
+
+.scrollPage {
+  display: flex;
+  border: solid red 3px;
+  margin-top: 50rem;
+}
+
+#scrollView {
+  font-size: 24px;
+  color: #8080ff;
+  width: 40%;
+  margin-left: 30%;
+  border: solid 3px turquoise;
+}
+
+#hello {
+  text-align: center;
+}
 
